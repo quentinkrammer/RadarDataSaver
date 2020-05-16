@@ -6,7 +6,7 @@ import collections
 #     f = open(filename, "a")
 #     f.write(txt)
 #     f.close()    
-
+#
 filename = datetime.now()
 filename = filename.replace(microsecond=0)
 filename = str(filename)
